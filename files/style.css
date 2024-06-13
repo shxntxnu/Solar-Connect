@@ -1,3 +1,100 @@
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('solar-panels.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 250px 20px;
+}
+
+.hero h2 {
+    font-size: 3em;
+}
+
+.cta {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta:hover {
+    background-color: #218838;
+}
+
+main {
+    padding: 20px;
+}
+
+.section-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section-text {
+    flex: 1;
+    max-width: 1200px;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.bg-image {
+    flex: 1;
+    max-width: 1200px;
+    text-align: right;
+}
+
+.bg-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+} */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -54,17 +151,37 @@ nav ul li a {
 }
 
 main {
-    padding: 0px;
+    padding: 20px;
+}
+
+.section-container {
+    display: flex;
+    height: 100vh;
+}
+
+.section-text {
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bg-image {
+    flex: 1;
+    max-width: 1200px;
+    background: url('solar-panels.jpg') no-repeat center center/cover;
 }
 
 footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 1px 0;
-    position: absolute;
-    bottom: 0;
+    padding: 10px 0;
     width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 
 form {
@@ -74,6 +191,7 @@ form {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
 }
 
 form label {
